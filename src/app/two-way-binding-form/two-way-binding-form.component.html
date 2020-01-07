@@ -1,0 +1,10 @@
+<h1>2-Way Binding Form</h1>
+<form>
+    <input type="text" [placeholder]="name" [(ngModel)]="name" name="nameInput">
+    <br>
+    <br>
+    <label>{{name}}</label>
+    <br>
+    <br>
+    <button [disabled]="disableResetButtonForEmptyNameInput()" (click)="resetName()">Reset Name</button>
+</form>
