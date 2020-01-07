@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ParagraphToggleComponent } from './paragraph-toggle/paragraph-toggle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParagraphToggleComponent
   ],
   imports: [
     BrowserModule
