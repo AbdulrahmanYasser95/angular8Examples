@@ -23,8 +23,4 @@ export class ParagraphToggleComponent implements OnInit {
     this.toggleCount++;
   }
 
-  func(){
-    console.log('test');
-  }
-
 }
