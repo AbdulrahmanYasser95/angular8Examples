@@ -11,7 +11,7 @@ import { ParagraphToggleComponent } from './paragraph-toggle/paragraph-toggle.co
   ],
   imports: [
     BrowserModule
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

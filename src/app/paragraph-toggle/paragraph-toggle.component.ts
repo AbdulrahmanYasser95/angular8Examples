@@ -23,4 +23,10 @@ export class ParagraphToggleComponent implements OnInit {
     this.toggleCount++;
   }
 
+  isToggleCountGreaterThanFive(){
+    if(this.toggleCount>=5){
+      return true;
+    }
+  }
+
 }

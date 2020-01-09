@@ -1,3 +1,3 @@
 <p *ngIf='parargraphVisible;'>paragraph-toggle works!</p>
-<button (Click)="toggleParagraphVisibility()">Toggle Paragraph Visibility</button>
-<h1>{{toggleCount}}</h1>
+<button (click)="toggleParagraphVisibility()">Toggle</button>
+<h1 [ngClass]='{FivePlusToggles: isToggleCountGreaterThanFive()}'>{{toggleCount}}</h1>    
